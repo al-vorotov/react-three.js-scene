@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background: darkseagreen;
+  position: absolute;
+  height: 100%;
+  transition: 0.8s;
+  right: -100%;
+  font-size: 14px;
+  padding: 20px;
+
+  p {
+    margin-top: 10px;
+    font-weight: 300;
+
+    span {
+      margin: 10px 0;
+      display: block;
+      font-weight: 600;
+    }
+  }
+}
+
+.active {
+  right: 0;
+  transition: .8s;
+}
